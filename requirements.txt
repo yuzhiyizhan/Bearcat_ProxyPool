@@ -1,0 +1,6 @@
+redis
+scrapy
+loguru
+pymysql
+peewee
+requests
