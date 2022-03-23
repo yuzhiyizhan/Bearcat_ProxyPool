@@ -119,6 +119,8 @@ class Verify(object):
                                         timeout=3)
                 if response.status_code == 200:
                     return {'success': i}
+                else:
+                    return {'error': i}
             except:
                 error = error + 1
                 if error > 3:
